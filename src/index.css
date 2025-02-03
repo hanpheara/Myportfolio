@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn:hover {
+    background: linear-gradient(
+        92.23deg,
+        #406aff 21.43%,
+        #3bace2 50.63%,
+        #b936ee 100%,
+        #ff56f6 117.04%
+    );
+}
+.active {
+    background: linear-gradient(
+        92.23deg,
+        #406aff 21.43%,
+        #3bace2 50.63%,
+        #b936ee 100%,
+        #ff56f6 117.04%
+    );
+}
+.active {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 100%;
+
+}
+/* .body {
+    background: linear-gradient(
+        92.23deg,
+        #406aff 21.43%,
+        #3bace2 50.63%,
+        #b936ee 100%,
+        #ff56f6 117.04%
+    );
+} */
+.bg-site  {
+    background: linear-gradient(135deg, #2ca9f7, #000000, #fceef6, #1f0d3c, #d2007e);
+    background-size: cover;
+
+}
+.bg-about{
+    background-image: url(assets/DV.png);
+}
